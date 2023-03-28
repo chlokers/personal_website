@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Argot d'un Dragon</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <!-- logo -->
+        <div class="logo"><img src="images/logo.gif" alt="Logo" class="logo"></div>
+        <a href="index.html">漢語</a>
+        <a href="english.html">English</a>
+         <a href="french.html">Français</a>
+         <a href="latin.html">Lingua Latina</a>
+    </nav>
+    
+    <!-- 网页正文 -->
+    <div class="content">
+        <h1>Argot d'un Dragon</h1>
+        <p>Combien je regrette</p>
+		<p>Mon bras si dodu,</p>
+		<p>Ma jambe bien faite,</p>
+		<p>Et le temps perdu !</p>
+    </div>
+    <div class="container">
+		<div class="card" onclick="window.location='https://www.littre.org/'">
+			<img src="images/website.png">
+			<h3>Littré</h3>
+				<div class="right-arrow">
+					<img src="https://img.icons8.com/material-outlined/24/000000/right.png"/>
+				</div>
+
+		</div>
+		<div class="card" onclick="window.location='https://www.larousse.fr/dictionnaires/francais-monolingue'">
+			<img src="https://www.larousse.fr/dictionnaires/assets/img/favicon.ico">
+			<h3>Larousse</h3>
+				<div class="right-arrow">
+					<img src="https://img.icons8.com/material-outlined/24/000000/right.png"/>
+				</div>
+		</div>
+        <div class="card" onclick="window.location='https://gallica.bnf.fr/ark:/12148/bpt6k9796177r/texteBrut'">
+			<img src="images/website.png">
+			<h3>Argot and slang : a new French and English dictionary</h3>
+				<div class="right-arrow">
+					<img src="https://img.icons8.com/material-outlined/24/000000/right.png"/>
+				</div>
+		</div>
+        <div class="card" onclick="window.location='https://www.cnrtl.fr/corpus/'">
+			<img src="https://www.cnrtl.fr/favicon.ico">
+			<h3>Corpus Oraux en Français</h3>
+				<div class="right-arrow">
+					<img src="https://img.icons8.com/material-outlined/24/000000/right.png"/>
+				</div>
+		</div>
+    </div>
+    <!-- 版权声明 -->
+    <footer>
+        <p>&copy; 2023 Chlokers. All rights reserved.</p>
+    </footer>
+
+<!-- 返回顶部 -->
+<div id="back-to-top">
+    <span>&#9650;</span> 
+</div>
+
+<script type="text/javascript">
+	var backToTopButton = document.getElementById("back-to-top");
+	window.addEventListener("scroll", function() {
+		if (window.pageYOffset > 100) {
+			backToTopButton.style.display = "block";
+		} else {
+			backToTopButton.style.display = "none";
+		}
+	});
+	backToTopButton.addEventListener("click", function() {
+		window.scrollTo({top: 0, behavior: "smooth"});
+	});
+</script>
+</body>
+</html>

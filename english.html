@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chlokers' Language Treasure House</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+	<nav>
+        <!-- logo -->
+        <div class="logo"><img src="images/logo.gif" alt="Logo" class="logo"></div>
+        <a href="index.html">漢語</a>
+        <a href="english.html">English</a>
+         <a href="french.html">Français</a>
+         <a href="latin.html">Lingua Latina</a>
+    </nav>
+    
+    <!-- 网页正文 -->
+	<div class="content">
+        <h1>Chlokers' Language Treasure House</h1>
+        <p>Make me a willow Cabine at your gate,</p>
+		<p>And call vpon my soule within the house,</p>
+		<p>Write loyall Cantons of contemned loue,</p>
+		<p>And sing them lowd euen in the dead of night:</p>
+		<p>Hallow your name to the reuerberate hilles,</p>
+		<p>	And make the babling Gossip of the aire,</p>
+		<p>	Cry out Oliuia: O you should not rest</p>
+		<p>	Betweene the elements of ayre, and earth,</p>
+		<p>	But you should pittie me.</p>
+
+        
+
+    </div>
+    <div class="container">
+		<div class="card" onclick="window.location='https://www.merriam-webster.com/'">
+			<img src="https://www.merriam-webster.com/favicon.svg">
+			<h3>Merriam-webster Dictionary</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://www.collinsdictionary.com/'">
+			<img src="https://www.collinsdictionary.com/apple-touch-icon.png">
+			<h3>Collins Dictionary</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://www.etymonline.com/'">
+			<img src="https://cdn.etymonline.com/projects/etymonline-main-v3/favicon/apple-icon-57x57.png">
+			<h3>Online Etymology Dictionary</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://www.poetryfoundation.org/'">
+			<img src="https://www.poetryfoundation.org/assets/media/images/apple-touch-icon-196x196.png?v=1.2.12">
+			<h3>Poetry Foundation</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://www.english-corpora.org/'">
+			<img src="https://www.english-corpora.org/images/words.jpg">
+			<h3>English Corpora</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://www.english-corpora.org//coca/'">
+			<img src="https://www.english-corpora.org/images/wp1.png">
+			<h3>Corpus of Contemporary American English </h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+			
+	</div>
+    
+    <!-- 版权声明 -->
+    <footer>
+        <p>&copy; 2023 Chlokers. All rights reserved.</p>
+    </footer>
+
+<!-- 返回顶部 -->
+<div id="back-to-top">
+    <span>&#9650;</span> 
+</div>
+
+<script type="text/javascript">
+	var backToTopButton = document.getElementById("back-to-top");
+	window.addEventListener("scroll", function() {
+		if (window.pageYOffset > 100) {
+			backToTopButton.style.display = "block";
+		} else {
+			backToTopButton.style.display = "none";
+		}
+	});
+	backToTopButton.addEventListener("click", function() {
+		window.scrollTo({top: 0, behavior: "smooth"});
+	});
+</script>
+	
+</body>
+</html>

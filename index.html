@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>克洛的语言学习小站</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <!-- logo -->
+        <div class="logo"><img src="images/logo.gif" alt="Logo" class="logo"></div>
+        <a href="index.html">漢語</a>
+        <a href="english.html">English</a>
+         <a href="french.html">Français</a>
+         <a href="latin.html">Lingua Latina</a>
+    </nav>
+    
+    <!-- 网页正文 -->
+    <div class="content">
+        <h1>克洛的语言学习小站</h1>
+        <p>生年不滿百，常懷千歲憂。</p>
+        <p> 晝短苦夜長，何不秉燭游！</p>
+        <p> 為樂當及時，何能待來茲？</p>
+        <p> 愚者愛惜費，但為後世嗤。</p>
+        <p> 仙人王子喬，難可與等期。</p>
+	</div>
+    <div class="container">
+		<div class="card" onclick="window.location='https://ctext.org/zh'">
+			<img src="https://ctext.org/static/apple-touch-icon.png">
+			<h3>中國哲學書電子化計劃</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+
+		</div>
+        <div class="card" onclick="window.location='http://www.kaom.net/'">
+			<img src="http://www.kaom.net/include/guyinxiaojing.png">
+			<h3>古音小鏡·歷史語言學</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+        <div class="card" onclick="window.location='https://www.gushiwen.cn/'">
+			<img src="https://www.gushiwen.cn/favicon.ico">
+			<h3>古诗文网</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='https://sou-yun.cn/'">
+			<img src="https://sou-yun.cn/images/publish.png">
+			<h3>搜韵</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='http://bcc.blcu.edu.cn/'">
+			<img src="http://bcc.blcu.edu.cn/images/logo.png">
+			<h3>北语语料库</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+		<div class="card" onclick="window.location='http://ccl.pku.edu.cn:8080/ccl_corpus/'">
+			<img src="images/pku.jpg">
+			<h3>北大语料库</h3>
+				<div class="right-arrow">
+					<img src="images/right.png"/>
+				</div>
+		</div>
+    </div>
+    <!-- 版权声明 -->
+    <footer>
+        <p>&copy; 2023 Chlokers. All rights reserved.</p>
+    </footer>
+
+<!-- 返回顶部 -->
+<div id="back-to-top">
+    <span>&#9650;</span> 
+</div>
+
+<script type="text/javascript">
+	var backToTopButton = document.getElementById("back-to-top");
+	window.addEventListener("scroll", function() {
+		if (window.pageYOffset > 100) {
+			backToTopButton.style.display = "block";
+		} else {
+			backToTopButton.style.display = "none";
+		}
+	});
+	backToTopButton.addEventListener("click", function() {
+		window.scrollTo({top: 0, behavior: "smooth"});
+	});
+</script>
+</body>
+</html>
