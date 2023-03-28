@@ -24,23 +24,6 @@ nav a {
 
 /* logo样式 */
 
-.lang-buttons {
-
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-}
-.lang-buttons button {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    margin-right: 10px;
-    cursor: pointer;
-}
-.lang-buttons button:hover {
-    text-decoration: underline;
-}
-
 
 .logo {
     width: 50px;
